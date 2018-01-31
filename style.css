@@ -34,6 +34,7 @@ a {
 
 a:hover {
   color: grey;
+  text-decoration: none;
 }
 
 td, th {
@@ -88,15 +89,15 @@ li {
   color: grey;
 }
 
-.btn-orange {
+.btn-orange a {
   background-color: #F96D00;
   color: white;
-  font-weight: 500;
-  padding: 10px;
+  font-weight: 700;
+  padding: 8px;
   border-radius: 4px;
 }
 
-.btn-orange:hover {
+.btn-orange a:hover {
   color: white;
   background-color: grey;
 }
