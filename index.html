@@ -15,47 +15,70 @@
 </head>
 <body>
 
-  <div class="card text-center">
-    <img src="images/profile_pic.jpg" alt="profile picture" id="img-profile" class="img-circle">
-    <h1>Maxime Blain</h1>
-    <h2>Programmer <img src="images/laptop.png" alt="laptop"> @Le Wagon</h2>
-    <p>
-      Before joining Le Wagon
-      I spend 3 months in the United States of America to learn english.
-      After that I heard about Le Wagon and decided to join them.
-    </p>
-    <a class="btn-orange" href="https://www.lewagon.com/fr" target="_blank">Start now</a>
-  </div>
-
-  <div class="card text-center">
-    <ul class="list-inline">
-      <li class="text-center"><a href="https://twitter.com/iMaxx64" target="_blank"><i class="fa fa-twitter"></i></a></li>
-      <li class="text-center"><a href="https://github.com/iMaxx64" target="_blank"><i class="fa fa-github"></i></a></li>
+  <div id="sidebar">
+    <ul>
+      <li>
+        <a href="#summary">
+          <i class="fa fa-info-circle"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#favorite-movies">
+        <i class="fa fa-file-video-o"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#footer">
+        <i class="fa fa-life-ring"></i>
+        </a>
+      </li>
     </ul>
   </div>
 
-  <div class="card text-center">
-    <h2>My favorite movie</h2>
-    <table id="movies">
-      <tr>
-        <td>
-          <img src="images/lsda.jpg" alt="lsda picture">
-        </td>
-        <td>
-          <h3>The Lord Of The Rings</h3>
-          <p>
-          A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful <strong>One Ring</strong> and save Middle-earth from the Dark Lord Sauron.
-          </p>
-        </td>
-      </tr>
-    </table>
-  </div>
+  <div id="page-content">
 
-  <div class="card text-center">
-    <h2>About this page</h2>
-    <p>
-      This page has been coded during the FullStack program @LeWagon.
-    </p>
+    <div class="card text-center" id="summary">
+      <img src="images/profile_pic.jpg" alt="profile picture" id="img-profile" class="img-circle">
+      <h1>Maxime Blain</h1>
+      <h2>Programmer <img src="images/laptop.png" alt="laptop"> @Le Wagon</h2>
+      <p>
+        Before joining Le Wagon
+        I spend 3 months in the United States of America to learn english.
+        After that I heard about Le Wagon and decided to join them.
+      </p>
+      <a class="btn-orange" href="https://www.lewagon.com/fr" target="_blank">Start now</a>
+    </div>
+
+    <div class="card text-center">
+      <ul class="list-inline">
+        <li class="text-center"><a href="https://twitter.com/iMaxx64" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li class="text-center"><a href="https://github.com/iMaxx64" target="_blank"><i class="fa fa-github"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="card text-center" id="favorite-movies">
+      <h2>My favorite movie</h2>
+      <table id="movies">
+        <tr>
+          <td>
+            <img src="images/lsda.jpg" alt="lsda picture">
+          </td>
+          <td>
+            <h3>The Lord Of The Rings</h3>
+            <p>
+            A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful <strong>One Ring</strong> and save Middle-earth from the Dark Lord Sauron.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="card text-center" id="footer">
+      <h2>About this page</h2>
+      <p>
+        This page has been coded during the FullStack program @LeWagon.
+      </p>
+    </div>
   </div>
 </body>
 </html>

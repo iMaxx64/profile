@@ -8,8 +8,9 @@ body {
   color: #7d7d7d;
   font-size: 12px;
   font-family: 'Open Sans', sans-serif;
-  margin: 30px 30px;
+  margin: 0px auto;
   display: block;
+  width: 500px;
 }
 
 h1 {
@@ -49,6 +50,10 @@ table {
   color: -internal-quirk-inherit;
   text-align: start;
   font-variant: normal;
+}
+
+li {
+  display: list-item;
 }
 
 #img-profile {
@@ -113,10 +118,72 @@ table {
 }
 
 #movies img {
-  height: 200px;
-  width: 140px;
+  height: 150px;
+  width: 120px;
 }
 
 #movies td {
   padding: 10px;
+}
+
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #788188;
+}
+
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#page-content {
+  margin-left: 10px;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  div {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div {
+    width: 300px;
+  }
 }
